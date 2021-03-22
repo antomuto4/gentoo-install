@@ -1,3 +1,3 @@
 # gentoo
 
-![gentoo](https://user-images.githubusercontent.com/56132390/103350445-4eab3d00-4aa0-11eb-8df3-72b7ae8d7d37.png)
+![gentoo](https://user-images.githubusercontent.com/56132390/112023690-c46cf500-8b33-11eb-9983-502a8c8b9842.png)
