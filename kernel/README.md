@@ -1,1 +1,1 @@
-kernel config
+my bloated kernel
