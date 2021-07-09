@@ -1,0 +1,238 @@
+app-arch/bzip2 abi_x86_32
+dev-db/sqlite abi_x86_32
+dev-libs/atk abi_x86_32
+dev-libs/expat abi_x86_32
+dev-libs/fribidi abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/icu abi_x86_32
+dev-libs/libcroco abi_x86_32
+dev-libs/libffi abi_x86_32
+dev-libs/libpcre abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/lzo abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/nspr abi_x86_32
+dev-libs/nss abi_x86_32
+dev-libs/openssl abi_x86_32
+dev-libs/wayland abi_x86_32
+dev-util/pkgconfig abi_x86_32
+gnome-base/librsvg abi_x86_32
+media-gfx/graphite2 abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/harfbuzz abi_x86_32
+media-libs/libpng abi_x86_32
+media-libs/mesa abi_x86_32
+media-libs/openal abi_x86_32
+media-libs/tiff abi_x86_32
+net-dns/libidn2 abi_x86_32
+net-libs/gnutls abi_x86_32
+net-misc/curl abi_x86_32
+net-nds/openldap abi_x86_32
+net-print/cups abi_x86_32
+sys-apps/attr abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-devel/gettext abi_x86_32
+sys-devel/llvm abi_x86_32
+sys-fs/udev abi_x86_32
+sys-libs/binutils-libs abi_x86_32
+sys-libs/gpm abi_x86_32
+sys-libs/ncurses abi_x86_32
+sys-libs/readline abi_x86_32
+sys-libs/zlib abi_x86_32
+virtual/libffi abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libudev abi_x86_32
+virtual/pkgconfig abi_x86_32
+x11-libs/cairo abi_x86_32
+x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/gtk+:2 abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXScrnSaver abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXft abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libdrm abi_x86_32 video_cards_nouveau video_cards_amdgpu video_cards_radeon video_cards_intel
+x11-libs/libpciaccess abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/pango abi_x86_32
+x11-libs/pixman abi_x86_32
+x11-proto/damageproto abi_x86_32
+x11-proto/dri2proto abi_x86_32
+x11-proto/dri3proto abi_x86_32
+x11-proto/fixesproto abi_x86_32
+x11-proto/glproto abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/presentproto abi_x86_32
+# move x11-proto/xcb-proto x11-base/xcb-proto
+x11-base/xcb-proto abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xf86driproto abi_x86_32
+x11-proto/xf86vidmodeproto abi_x86_32
+x11-proto/xproto abi_x86_32
+
+# If not using systemd add this, otherwise chances are the libudev/udev will
+# be pulled as dependencies and eudev removed from your system.
+sys-fs/eudev abi_x86_32
+# required by sys-apps/flatpak-1.10.0::gentoo
+# required by sys-apps/flatpak (argument)
+>=dev-util/ostree-2020.8 curl
+# required by x11-drivers/xf86-video-nouveau-1.0.16::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_nouveau]
+# required by x11-base/xorg-server-1.20.10-r2::gentoo[xorg]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.10-r2 -minimal
+# required by app-emulation/wine-vanilla-6.0::gentoo[unwind]
+# required by virtual/wine-0-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libunwind-1.5.0-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[gecko]
+# required by virtual/wine-0-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emulation/wine-gecko-2.47.2 abi_x86_32
+# required by dev-python/PyQtWebEngine-5.15.2::gentoo
+# required by www-client/qutebrowser-2.0.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwebengine-5.15.2_p20210224 widgets
+# required by media-gfx/gimp-2.10.22-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/poppler-21.02.0 cairo
+app-text/poppler -webp
+# required by app-admin/conky-1.11.6-r2::gentoo[nvidia]
+# required by conky (argument)
+>=x11-drivers/nvidia-drivers-460.39-r1 static-libs
+# required by media-sound/pulseaudio-13.0-r1::gentoo
+# required by @steam
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsndfile-1.0.31 abi_x86_32
+# required by dev-libs/wayland-1.19.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-util/wayland-scanner-1.19.0 abi_x86_32
+# required by app-office/libreoffice-bin-6.4.7.2_p3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/harfbuzz-2.7.4 icu
+# required by games-util/lutris-0.5.8.3::gentoo[python_single_target_python3_8]
+# required by games-util/lutris (argument)
+>=dev-lang/python-3.8.8:3.8 sqlite
+# required by dev-python/python-magic-0.4.20::gentoo
+# required by games-util/lutris-0.5.8.3::gentoo[python_single_target_python3_8]
+# required by games-util/lutris (argument)
+>=sys-apps/file-5.39-r3 -python
+# required by app-misc/neofetch-7.1.0::gentoo[X]
+# required by neofetch (argument)
+>=www-client/w3m-0.5.3_p20180125 imlib
+# required by media-libs/mesa-20.3.4::gentoo[zstd]
+# required by @selected
+# required by @world (argument)
+>=app-arch/zstd-1.4.9 abi_x86_32
+# required by dev-qt/qtwebengine-5.15.2_p20210224::gentoo
+# required by dev-python/PyQtWebEngine-5.15.2::gentoo
+# required by www-client/qutebrowser-2.0.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxml2-2.9.10-r5 icu
+# required by sys-boot/woeusb-3.3.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-boot/grub-2.06_rc1 grub_platforms_pc
+# required by dev-libs/libxslt-1.1.34-r1::gentoo
+# required by dev-python/lxml-4.6.3::gentoo
+# required by app-eselect/eselect-repository-8::gentoo[python_single_target_python3_8]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgcrypt-1.8.7 abi_x86_32
+# required by dev-libs/libgcrypt-1.8.7::gentoo
+# required by @steam
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgpg-error-1.41 abi_x86_32
+# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.4::gentoo
+# required by app-crypt/pinentry-1.1.0-r4::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.2.27::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.13::gentoo[rsync-verify,-build]
+# required by app-admin/perl-cleaner-2.27::gentoo
+# required by dev-lang/perl-5.30.3::gentoo
+# required by virtual/perl-File-Path-2.160.0-r1::gentoo
+# required by dev-perl/File-DesktopEntry-0.220.0::gentoo
+# required by dev-perl/File-MimeInfo-0.280.0::gentoo
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r1::gentoo
+# required by app-office/libreoffice-bin-6.4.7.2_p3::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.38.1 gtk
+# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.4::gentoo
+# required by net-im/teams-1.4.00.4855-r1::gentoo
+# required by net-im/teams (argument)
+>=app-crypt/pinentry-1.1.0-r4 gnome-keyring
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r1::gentoo
+# required by net-print/cups-2.3.3-r2::gentoo[X]
+# required by net-print/cups-filters-1.28.7::gentoo
+>=app-text/xmlto-0.0.28-r4 text
+# required by app-emulation/wine-vanilla-6.0::gentoo[vulkan]
+# required by virtual/wine-0-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.2.162-r1 abi_x86_32
+# required by app-emulation/libvirt-7.0.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-3.0.0::gentoo
+# required by app-emulation/virt-manager-3.1.0::gentoo
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.83-r101 script
+# required by app-emulation/libvirt-7.0.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-3.0.0::gentoo
+# required by app-emulation/virt-manager-3.1.0::gentoo
+# required by virt-manager (argument)
+>=sys-apps/iproute2-5.7.0 -minimal
+# required by gnome-extra/gnome-boxes-3.36.6::gentoo
+# required by gnome-extra/gnome-boxes (argument)
+>=net-misc/spice-gtk-0.37-r2 smartcard usbredir vala
+# required by gnome-extra/gnome-boxes-3.36.6::gentoo
+# required by gnome-extra/gnome-boxes (argument)
+>=app-emulation/spice-0.14.3 smartcard
+# required by gnome-extra/gnome-boxes-3.36.6::gentoo
+# required by gnome-extra/gnome-boxes (argument)
+>=app-emulation/qemu-5.2.0-r2 spice usbredir smartcard
+# required by www-client/chromium-89.0.4389.90::gentoo
+# required by chromium (argument)
+>=sys-libs/zlib-1.2.11-r3 minizip
+# required by www-client/chromium-89.0.4389.90::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-14.16.0 inspector
+# required by app-editors/okteta-0.26.4::gentoo
+# required by app-editors/okteta (argument)
+>=dev-qt/qtscript-5.15.2 scripttools
+# required by app-emulation/wine-vanilla-6.0::gentoo
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20210206::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/lcms-2.12 abi_x86_32

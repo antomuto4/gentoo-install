@@ -1,0 +1,92 @@
+x11-base/xorg-server
+# required by app-emulation/faudio-21.01::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsdl2-2.0.14-r1 abi_x86_32
+# required by app-emulation/open-vm-tools-11.2.0_p16938113-r1::gentoo[resolutionkms]
+# required by app-emulation/open-vm-tools (argument)
+>=x11-libs/libdrm-2.4.104 video_cards_vmware
+# required by dev-util/gyp-20200512145953::gentoo[python_single_target_python3_8]
+# required by app-i18n/mozc-2.23.2815.102::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-54.2.0 python_targets_python3_8
+# required by sys-block/gparted-1.1.0::gentoo[kde,-policykit]
+# required by @selected
+# required by @world (argument)
+>=kde-plasma/kde-cli-tools-5.20.5 kdesu
+# required by xfce-extra/thunar-volman-4.16.0::gentoo
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=xfce-base/thunar-4.16.6 udisks
+# required by xfce-base/thunar-4.16.6::gentoo[udisks]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=gnome-base/gvfs-1.44.1 udisks
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa,alsa-plugin]
+# required by @steam
+# required by @selected
+# required by @world (argument)
+>=media-plugins/alsa-plugins-1.2.2 abi_x86_32
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by sys-apps/bubblewrap-0.4.1::gentoo
+# required by gnome-base/gnome-desktop-3.38.4::gentoo
+# required by games-util/lutris-0.5.8.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/pam-1.5.1 abi_x86_32
+# required by sys-libs/pam-1.5.1::gentoo[berkdb]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/db-5.3.28-r7 abi_x86_32
+# required by net-libs/gnutls-3.7.1::gentoo[nls]
+# required by app-emulation/wine-vanilla-6.0::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by media-libs/gegl-0.4.26-r1::gentoo
+# required by media-gfx/gimp-2.10.22-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/babl-0.1.84 lcms
+# required by dev-python/mako-1.1.4::gentoo
+# required by media-libs/mesa-20.3.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/markupsafe-1.1.1-r1 python_targets_python3_9
+# required by dev-python/toml-0.10.2::gentoo
+# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-56.0.0 python_targets_python3_9
+# required by dev-python/setuptools-56.0.0::gentoo
+# required by dev-python/toml-0.10.2::gentoo
+# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_9
+# required by dev-python/setuptools-56.0.0::gentoo
+# required by dev-python/toml-0.10.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-6.0.1-r1 python_targets_python3_9
+# required by dev-python/setuptools_scm-6.0.1-r1::gentoo
+# required by dev-python/setuptools-56.0.0::gentoo
+# required by dev-python/markupsafe-1.1.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/toml-0.10.2 python_targets_python3_9
+# required by dev-lua/lgi-0.9.2-r100::gentoo[test]
+# required by x11-wm/awesome-4.3-r101::gentoo[lua_single_target_lua5-1]
+# required by awesome (argument)
+>=x11-base/xorg-server-1.20.11 xvfb
+# required by media-sound/lilypond-2.22.0::gentoo
+# required by app-text/asciidoc-9.0.5-r1::gentoo[test]
+# required by app-text/dvisvgm-2.11-r1::gentoo
+>=media-gfx/fontforge-20201107 png
+# required by media-gfx/graphviz-2.47.1::gentoo
+# required by app-text/asciidoc-9.0.5-r1::gentoo[test]
+# required by app-text/dvisvgm-2.11-r1::gentoo
+>=media-libs/gd-2.3.2 fontconfig truetype

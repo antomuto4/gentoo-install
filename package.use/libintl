@@ -1,0 +1,2 @@
+virtual/libintl
+>=virtual/libintl-0-r2 abi_x86_32

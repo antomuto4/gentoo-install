@@ -1,0 +1,2 @@
+>=virtual/libusb-1-r2 abi_x86_32
+>=dev-libs/libusb-1.0.24-r1 abi_x86_32

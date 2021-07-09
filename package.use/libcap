@@ -1,0 +1,2 @@
+sys-libs/libcap
+>=sys-libs/libcap-2.43 abi_x86_32
