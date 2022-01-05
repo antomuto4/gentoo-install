@@ -1,1 +1,22 @@
 app-text/poppler -qt5
+# required by xfce-base/xfce4-panel-4.16.3::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.16.10::gentoo[trash-panel-plugin]
+# required by xfce-base/xfdesktop-4.16.0::gentoo[thunar]
+# required by xfce-base/xfce4-meta-4.16-r2::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by media-video/mpv-0.33.1-r2::gentoo
+# required by mpv (argument)
+>=media-video/ffmpeg-4.4.1-r1 encode threads
+# required by media-video/mpv-0.33.1-r2::gentoo
+# required by mpv (argument)
+>=media-libs/libass-0.15.1-r2 fontconfig
+# required by media-video/mpv-0.33.1-r2::gentoo
+# required by mpv (argument)
+>=media-video/ffmpeg-4.4.1-r1 threads encode
+# required by media-video/mpv-0.33.1-r2::gentoo
+# required by mpv (argument)
+>=media-libs/libass-0.15.1-r2 fontconfig
+# required by sys-apps/flatpak-1.10.5::gentoo
+# required by sys-apps/flatpak (argument)
+>=dev-util/ostree-2021.3-r2 gpg curl

@@ -1,0 +1,438 @@
+>=sys-boot/grub-2.06-r1 mount
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXcursor-1.2.0 abi_x86_32
+# required by x11-libs/libXi-1.8::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXext-1.3.4 abi_x86_32
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXfixes-6.0.0 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXrandr-1.5.2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXi-1.8 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXxf86vm-1.1.4-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[alsa]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/alsa-lib-1.2.4 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=net-print/cups-2.3.3_p2-r3 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/fontconfig-2.13.1-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/lcms-2.12 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-sound/mpg123-1.29.2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[nls]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-devel/gettext-0.21-r1 abi_x86_32
+# required by media-libs/freetype-2.11.0-r1::gentoo[png]
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libpng-1.6.37-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[pulseaudio]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-sound/pulseaudio-15.0-r1 abi_x86_32
+# required by app-emulation/faudio-21.01::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libsdl2-2.0.16-r1 abi_x86_32 haptic
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=net-libs/gnutls-3.7.2 abi_x86_32
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/freetype-2.11.0-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[udisks]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-apps/dbus-1.12.20-r4 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[unwind]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/libunwind-1.5.0-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xcomposite]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXcomposite-0.4.5 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xinerama]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXinerama-1.1.4-r1 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libxml2-2.9.12-r5 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libxslt-1.1.34-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[gecko]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=app-emulation/wine-gecko-2.47.2 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r2::gentoo[crypt]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libgcrypt-1.8.8 abi_x86_32
+# required by dev-libs/libgcrypt-1.8.8::gentoo
+# required by dev-libs/libxslt-1.1.34-r2::gentoo[crypt]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libgpg-error-1.42 abi_x86_32
+# required by media-libs/tiff-4.3.0::gentoo[zlib]
+# required by media-libs/lcms-2.12::gentoo[tiff]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/zlib-1.2.11-r4 abi_x86_32
+# required by dev-libs/libxml2-2.9.12-r5::gentoo[icu]
+# required by dev-libs/libxslt-1.1.34-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/icu-69.1-r1 abi_x86_32
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libX11-1.7.2 abi_x86_32
+# required by x11-libs/libX11-1.7.2::gentoo
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libxcb-1.14 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by x11-libs/libX11-1.7.2::gentoo
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXau-1.0.9-r1 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by x11-libs/libX11-1.7.2::gentoo
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXdmcp-1.1.3 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by x11-libs/libX11-1.7.2::gentoo
+# required by x11-libs/libXcursor-1.2.0::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-base/xcb-proto-1.14.1 abi_x86_32
+# required by media-libs/freetype-2.11.0-r1::gentoo[bzip2]
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=app-arch/bzip2-1.0.8-r1 abi_x86_32
+# required by net-libs/gnutls-3.7.2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libtasn1-4.17.0 abi_x86_32
+# required by net-libs/gnutls-3.7.2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libunistring-0.9.10-r1 abi_x86_32
+# required by net-libs/gnutls-3.7.2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/nettle-3.7.3 abi_x86_32
+# required by dev-libs/nettle-3.7.3::gentoo[gmp]
+# required by net-libs/gnutls-3.7.2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/gmp-6.2.1-r2 abi_x86_32
+# required by net-libs/gnutls-3.7.2::gentoo[idn]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=net-dns/libidn2-2.3.2 abi_x86_32
+# required by media-libs/lcms-2.12::gentoo[tiff]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/tiff-4.3.0 abi_x86_32
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/expat-2.4.1 abi_x86_32
+# required by sys-fs/udev-249.6-r2::gentoo
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-apps/util-linux-2.37.2-r1 abi_x86_32
+# required by x11-libs/libXrandr-1.5.2::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[X]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=x11-libs/libXrender-0.9.10-r2 abi_x86_32
+# required by sys-devel/gettext-0.21-r1::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[nls]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[jpeg]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/jpeg-100 abi_x86_32
+# required by virtual/jpeg-100::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[jpeg]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libjpeg-turbo-2.1.1-r2 abi_x86_32
+# required by sys-devel/gettext-0.21-r1::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[nls]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[opengl]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/glu-9.0-r2 abi_x86_32
+# required by media-libs/glu-9.0.2::gentoo
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/libsdl2-2.0.16-r1::gentoo[opengl]
+# required by app-emulation/faudio-21.01::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/opengl-7.0-r2 abi_x86_32
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/libudev-232-r5 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[usb]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/libusb-1-r2 abi_x86_32
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libusb-1.0.24-r2 abi_x86_32
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/libsdl2-2.0.16-r1::gentoo[opengl]
+# required by app-emulation/faudio-21.01::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/glu-9.0.2 abi_x86_32
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=media-libs/mesa-21.2.6 abi_x86_32
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-fs/udev-249.6-r2 abi_x86_32
+# required by sys-fs/udev-249.6-r2::gentoo
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/libcap-2.49-r1 abi_x86_32
+# required by sys-libs/libcap-2.49-r1::gentoo[pam]
+# required by sys-fs/udev-249.6-r2::gentoo
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/pam-1.5.1_p20210622-r1 abi_x86_32
+# required by sys-fs/udev-249.6-r2::gentoo
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=virtual/libcrypt-2 abi_x86_32
+# required by virtual/libcrypt-2::gentoo
+# required by sys-fs/udev-249.6-r2::gentoo
+# required by virtual/libudev-232-r5::gentoo[-systemd]
+# required by dev-libs/libusb-1.0.24-r2::gentoo[udev]
+# required by virtual/libusb-1-r2::gentoo
+# required by net-print/cups-2.3.3_p2-r3::gentoo[usb]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[cups]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/libxcrypt-4.4.25-r1 abi_x86_32
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libsndfile-1.0.31 abi_x86_32
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/speexdsp-1.2.0 abi_x86_32
+# required by media-sound/pulseaudio-15.0-r1::gentoo[asyncns]
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by media-sound/pulseaudio-15.0-r1::gentoo[glib]
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/glib-2.68.4 abi_x86_32
+# required by media-sound/pulseaudio-15.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-plugins/alsa-plugins-1.2.2 abi_x86_32
+# required by dev-libs/glib-2.68.4::gentoo
+# required by sys-auth/polkit-0.120-r1::gentoo
+# required by sys-auth/rtkit-0.13-r1::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[pulseaudio,realtime]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=dev-libs/libpcre-8.45 abi_x86_32
+# required by sys-devel/llvm-13.0.0::gentoo[libffi]
+# required by sys-devel/llvmgold-13-r1::gentoo
+>=dev-libs/libffi-3.3-r2 abi_x86_32
+# required by media-libs/libsndfile-1.0.31::gentoo[-minimal]
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/flac-1.3.3-r1 abi_x86_32
+# required by media-libs/flac-1.3.3-r1::gentoo[ogg]
+# required by media-libs/libsndfile-1.0.31::gentoo[-minimal]
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libogg-1.3.5 abi_x86_32
+# required by media-libs/libsndfile-1.0.31::gentoo[-minimal]
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/libvorbis-1.3.7 abi_x86_32
+# required by media-libs/libsndfile-1.0.31::gentoo[-minimal]
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/mpg123-1.29.2::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[mp3]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=media-libs/opus-1.3.1-r2 abi_x86_32
+# required by media-libs/mesa-21.2.6::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=media-libs/libglvnd-1.3.4 abi_x86_32
+# required by media-libs/mesa-21.2.6::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=x11-libs/libdrm-2.4.107 abi_x86_32
+# required by media-libs/mesa-21.2.6::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=x11-libs/libxshmfence-1.3-r2 abi_x86_32
+# required by media-libs/mesa-21.2.6::gentoo[zstd]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=app-arch/zstd-1.5.0 abi_x86_32
+# required by media-libs/mesa-21.2.6::gentoo[-video_cards_radeon,-video_cards_r600,-video_cards_radeonsi,llvm,-opencl,gallium]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[opengl]
+# required by www-client/firefox-bin-95.0.1::gentoo[ffmpeg]
+# required by firefox-bin (argument)
+>=sys-devel/llvm-13.0.0 abi_x86_32
+# required by sys-devel/llvm-13.0.0::gentoo[ncurses]
+# required by sys-devel/llvmgold-13-r1::gentoo
+>=sys-libs/ncurses-6.2_p20210619 abi_x86_32
+# required by sys-libs/ncurses-6.2_p20210619::gentoo[gpm]
+# required by sys-apps/util-linux-2.37.2-r1::gentoo[ncurses]
+# required by app-text/xmlto-0.0.28-r6::gentoo
+# required by sys-apps/dbus-1.12.20-r4::gentoo
+# required by sys-auth/rtkit-0.13-r1::gentoo
+# required by app-emulation/wine-vanilla-6.0.2::gentoo[pulseaudio,realtime]
+# required by virtual/wine-0-r7::gentoo
+# required by virtual/wine (argument)
+>=sys-libs/gpm-1.20.7-r3 abi_x86_32
+# required by x11-libs/libdrm-2.4.107::gentoo[video_cards_intel]
+# required by x11-drivers/xf86-video-intel-2.99.917_p20201215::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_intel,-video_cards_i965]
+# required by x11-base/xorg-server-1.20.14::gentoo[xorg]
+# required by x11-drivers/xf86-input-libinput-1.2.0::gentoo
+>=x11-libs/libpciaccess-0.16-r1 abi_x86_32

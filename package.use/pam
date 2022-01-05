@@ -1,3 +1,0 @@
-sys-libs/pam
->=sys-libs/db-5.3.28-r7 abi_x86_32
->=sys-libs/pam-1.5.1 abi_x86_32
